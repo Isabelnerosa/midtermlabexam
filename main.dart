@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
     names.forEach((name, count) {
       widgets.add(
         ListTile(
-          leading: Icon(Icons.face),
+          leading: Icon(Icons.person),
           title: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
